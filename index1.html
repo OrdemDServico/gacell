@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="logo0.JPEG" type="image/x-icon">
+    <title>Ordem de serviço</title>
+    <style>
+        .div1 {
+            border-style: solid;
+            height: auto;
+            width: auto;
+            border-radius: 7px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .divP>p {
+            margin: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .ip {
+            margin-right: 10px;
+        }
+
+        img {
+            width: 140px;
+            height: 140px;
+        }
+
+        input {
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        @media print {
+            .print {
+                display: none;
+            }
+        }
+
+        .div2 {
+            border-style: solid;
+            border-radius: 7px;
+            padding-left: 10px;
+            margin-bottom: 7px;
+        }
+        
+        .div {
+            display: flex;
+        }
+        .div > input {
+            border: none;
+        }
+
+        .descricao {
+            text-align: center;
+        }
+        .textarea {
+            width: 100%;
+            height: 63px;
+        }
+
+        .div3 {
+            border-style: solid;
+            border-radius: 7px;
+            padding-left: 10px;
+            margin-bottom: 7px;
+            width: 160px;
+            height: 216px;
+        }
+
+        .grid1 {
+            display: grid;
+            grid-template-columns: 1fr 800px;
+            grid-gap: 20px;
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        #div4 {}
+
+        #sidebar {}
+    </style>
+</head>
+
+<body>
+
+    <div></div>
+    <div class="div1">
+        <div>
+            <img src="logo.png" alt="">
+        </div>
+        <div class="divP">
+            <p>Marquês de Marica, Nº 144</p>
+            <p>Pau Miudo, Salvador-BA</p>
+            <p><b>(71)9 9156-0818</b> <i class="fa fa-whatsapp" style="font-size:36px"></i></p>
+        </div>
+    </div>
+
+    <div class="div1">
+        <div> <input type="checkbox" name="fav_language">
+            <label for="Computador">Pedido:</label>
+        </div>
+        <div><input type="checkbox" name="fav_language">
+            <label for="Computador">Orçamento:</label>
+        </div>
+        <input class="ip" type="date">
+    </div>
+
+    <div class="div2">
+        <div style="display: flex;">
+            <p>Nome:</p>
+            <input style="width: 300px;" type="text">
+            <p>Telefone:</p>
+            <input type="tel"><br>
+        </div>
+        <div style="display: flex;">
+            <p>Endereço:</p>
+            <input style="width: 300px;" type="text">
+        </div>
+        <div style="display: flex;">
+            <p>Cidade:</p>
+            <input style="width: 250px;" type="text">
+            <P>CPF/CNPJ:</P>
+            <input type="text">
+        </div>
+        <div style="display: flex;">
+            <p>E-mail:</p>
+            <input style="width: 300px;" type="text">
+        </div>
+    </div>
+
+    <section class="grid1">
+        <div id="div4" class="div3">
+            <div style="display: flex;">
+                <p>Senha:</p>
+                <input style="width: 100px;" type="text">
+            </div>
+            <div>
+                <ul style="display: flex;">
+                    <li style="margin-right: 50px;"></li>
+                    <li style="margin-right: 50px;"></li><b>
+                        <li style="margin-right: 50px;"></li>
+                </ul>
+                <ul style="display: flex;">
+                    <li style="margin-right: 50px;"></li>
+                    <li style="margin-right: 50px;"></li><b>
+                        <li style="margin-right: 50px;"></li>
+                </ul>
+                <ul style="display: flex;">
+                    <li style="margin-right: 50px;"></li>
+                    <li style="margin-right: 50px;"></li>
+                    <li style="margin-right: 50px;"></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="sidebar" class="div2">
+            <div style="display: flex;">
+                <p>Modelo:</p>
+                <input style="width: 300px;" type="text">
+                <p>Marca:</p>
+                <input type="text">
+            </div>
+            <div style="display: flex;">
+                <p>IMEI:</p>
+                <input style="width: 400px;" type="text">
+                <P>IMEI:</P>
+                <input style="width: 400px;" type="text">
+                <p>Cor:</p>
+                <input style="width: 80px;" type="text">
+            </div>
+        </div>
+        <div id="sidebar" class="div2">
+            <h3>Acompanha acessórios?</h3>
+            <div style="display: flex;">
+                <div>
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Fone de ouvido</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Capinha</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Chip</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Bateria</label>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Carregador</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Película</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Micro SD</label>
+                </div>
+                <div style="margin-right: 30px;">
+                    <input type="checkbox" name="fav_language">
+                    <label for="Computador">Outro:</label>
+                    <input type="text">
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <div class="div2" style="display: flex;">
+        <div>
+            <table>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>1. Não liga</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>2. Reinicia</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>3. Travado</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>4. Touch não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>5. Touch fantasma</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>6. Display quebrado </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>7. Frontal quebrado</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>8. Sem brilho na tela</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>9. Tela piscando</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>10. Liga com tela preto</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>11. Carga falsa</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>12. Não segura carga</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>13. Não carrega</td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>14. Sem áudio ou estourado</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>15. Entrada de fone não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>16. Camera frontal não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>17. Camera traseira não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>18. Flash não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>19. Wi-fi não funciona </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>20. Bússola não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>21. Bluetooth não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>22. Botão power não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>23. Botão +/- não funciona</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>24. Não faz ligação</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>25. Não vibra</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>26. Não grava voz</td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <table>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>27. Não abre a galeria</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>28. Não reconhece cartão SD</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>29. Sem sinal SIM</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>30. Não reconhece chip</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>31. Apagou do nada</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>32. Mostra carregando na tela</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>33. Superaquecendo</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>34. Molhou</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>35. Caiu</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>36. Ja foi aberto</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>37. Avarias na carcaça</td>
+                </tr>
+                <tr>
+                    <td>Outro:</td>
+                    <td><input type="text"></td>
+
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <p>1. Garantimos esse produto pelo periodo de 90 dias.</p>
+    <p>2. A Garantia dos produtos é válida SOMENTE contra defeitos de fabricação.</p>
+    <p>3. A Garantia é válida APENAS para o produto ou serviço feito.</p>
+    <p>4. A Garantia não cobre defeitos ocasionados por mau uso, má instalação, quedas ou danos causados por
+        forças naturais.</p>
+    <p>5.Os produtos defeituosos deverão ser devolvidos deverão ser devolvidos em embalagens originais, acompanhados de
+        todos os acessórios.</p>
+    <p>6. Todos nossos produtos são testados antecipadamente para evitar maiores problemas.
+    </p>
+    <p>
+        <b>Concordo com os termos e condições descritas na Ordem de Serviço acima.</b>
+    </p>
+    <p>ASSINATURA DO CLIENTE:______________________________</p>
+    <div class="div">
+        <h5>Valor do serviço: R$</h5>
+        <input class="inputv" type="text" name="" id="">
+        <h5>Valor pago: R$</h5>
+        <input class="inputv" type="text" name="" id="">
+    </div>
+
+    
+    <p class="descricao">Descrição técnica</p>
+    <textarea class="textarea" name="" id="" cols="30" rows="10"></textarea>
+
+    <button onclick="print()" class="print">Imprimir</button>
+</body>
+
+</html>
