@@ -1,0 +1,99 @@
+.divmain {
+    max-height: 100%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+
+.logo {
+    height: 140px;
+    width: 140px;
+}
+
+.div1 {
+    border-style: solid;
+    height: auto;
+    min-width: 400px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.divP>p {
+    margin: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ip {
+    margin-right: 10px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+@media print {
+    .print {
+        display: none;
+    }
+}
+
+.div2 {
+    border-style: solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+    min-width: 390px;
+}
+
+@media screen and (max-width:417px) {
+    .div2 > .divClientes {
+        display: block;
+    }
+    
+}
+
+.div {
+    display: flex;
+}
+.div > input {
+    border: none;
+}
+
+.descricao {
+    text-align: center;
+}
+.textarea {
+    width: 100%;
+    height: 63px;
+}
+
+.div3 {
+    border-style: solid;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-bottom: 7px;
+    width: 160px;
+    height: 216px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 800px;
+    grid-gap: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 417px) {
+    .grid1 {
+        display: block;
+    }    
+}
+
+.divClientes {
+    display: flex;
+}
