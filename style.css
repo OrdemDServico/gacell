@@ -48,6 +48,14 @@ input {
     margin-bottom: 7px;
     min-width: 390px;
 }
+#sidebar {
+    display: flex;
+}
+@media screen and (max-width:417px) {
+    #sidebar {
+        display: block;
+    }    
+}
 
 @media screen and (max-width:417px) {
     .div2 > .divClientes {
