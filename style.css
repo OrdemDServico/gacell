@@ -42,10 +42,11 @@ input {
 
 .div2 {
     border-style: solid;
-    border-radius: 7px;
-    padding-left: 10px;
+    height: auto;
+    min-width: 400px;
+    border-radius: 7px;    
     margin-bottom: 7px;
-    min-width: 390px;
+    
 }
 #sidebar {
     display: flex;
